@@ -1,0 +1,65 @@
+.textBox {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.button {
+  width: 20%;
+  background-color: #e9f7ff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #daf1fd;
+}
+
+.orangeCircle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(255, 166, 0); */
+    background-color: #e9f7ff    ;
+    /* Round that corner */
+    border-bottom-left-radius: 500px;
+    z-index: -1; /* Place it behind other elements */
+  }
+
+  .orangeCircleTwo {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100px;
+    height: 200px;
+    /* background-color: rgb(255, 166, 0); */
+    background-color: #e9f7ff    ;
+    /* Round that corner */
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    z-index: -1; /* Place it behind other elements */
+  }
+
+  .orangeCircleThree {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(255, 166, 0); */
+    background-color: #e9f7ff    ;
+    /* Round that corner */
+    border-bottom-left-radius: 500px;
+    z-index: -1; /* Place it behind other elements */
+  }

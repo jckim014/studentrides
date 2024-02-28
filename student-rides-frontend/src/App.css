@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.log-out-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
+  background-color: #e9f7ff;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.log-out-button:hover {
+  /* background-color: #daf1fd; */
+  border: 1px solid black;
+}

@@ -1,0 +1,25 @@
+.textBox {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 20px;
+  }
+  
+.button {
+  width: 10.5%;
+  /* background-color: #e9f7ff; */
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.button:hover {
+  background-color: #daf1fd;
+}
